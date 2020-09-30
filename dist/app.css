@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+body {
+  position: relative;
+}
+
 .header_wrapper {
   width: 100vw;
   height: 100px;
@@ -89,6 +93,8 @@
   right: 5%;
   bottom: 0;
   background-color: red;
+  /* Box limited offer */
+  /* Descrizione e download link */
 }
 
 .jumbotron .jumbotron-contenuto .limited-offer {
@@ -127,11 +133,16 @@
   padding: 1% 0;
 }
 
+.jumbotron .jumbotron-contenuto .descrizione ul .arrow_icon {
+  font-size: 14px;
+  margin-right: 2%;
+}
+
 .jumbotron .jumbotron-contenuto .descrizione .download {
   width: 230px;
   height: 60px;
-  border: 1px solid #fff;
   margin: 3% 3%;
+  background-color: grey;
 }
 
 .jumbotron .jumbotron-contenuto .descrizione .download .download_text {
@@ -160,5 +171,75 @@
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 25px;
+  color: #fff;
+}
+
+main {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: yellow;
+}
+
+main ::after {
+  content: "";
+  display: flex;
+  clear: both;
+}
+
+footer {
+  width: 100vw;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #1E1E1E;
+}
+
+footer .footer-content {
+  width: 90vw;
+  height: 100%;
+  margin-left: 5vw;
+}
+
+footer .footer-content .certificate {
+  width: 120px;
+  height: 100%;
+  position: relative;
+  display: inline-block;
+}
+
+footer .footer-content .certificate img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+footer .footer-content .certificate #mcafee {
+  width: 100px;
+  height: 50px;
+}
+
+footer .footer-content .link-utili {
+  display: inline-block;
+  float: right;
+}
+
+footer .footer-content .link-utili ul {
+  width: 50vw;
+  height: 100%;
+}
+
+footer .footer-content .link-utili ul li {
+  line-height: 100px;
+  padding: 0 2%;
+  list-style: none;
+  display: inline-block;
+  color: #fff;
+}
+
+footer .footer-content .link-utili ul a {
+  text-decoration: none;
+  color: #fff;
 }
 

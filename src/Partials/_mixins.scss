@@ -24,3 +24,9 @@
   text-decoration: none;
   color: #fff;
 }
+
+@mixin clearfix {
+  content: "";
+  display: flex;
+  clear: both;
+}
