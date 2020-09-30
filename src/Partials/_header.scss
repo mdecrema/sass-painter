@@ -7,7 +7,7 @@
   .logo_painter {
     width: 100px;
     height: 30px;
-    @include transform;
+    @include centra;
   }
 
 }
