@@ -1,20 +1,61 @@
-.logo {
-  width: 200px;
+.header_wrapper {
+  width: 100vw;
   height: 100px;
   background-color: $backColorMenu;
   position: relative;
-
-  .logo_painter {
-    width: 100px;
-    height: 30px;
-    @include centra;
-  }
-
+  overflow: hidden;
 }
 
+.logo {
+  width: 200px;
+  height: 50px;
+  background-color: $backColorMenu;
+  position: relative;
+  vertical-align: middle;
+  @include display_bl;
+
+  & img {
+    width: 90px;
+    height: 20px;
+    @include transform;
+  }
+}
 
 .nav-bar {
-  width: 100vw;
-  height: 70px;
-  background-color: $backColorMenu;
+  width: 90vw;
+  margin-left: 5vw;
+  height: 60px;
+  position: absolute;
+  bottom: 0;
+
+  & ul {
+    width: 80%;
+    height: 30px;
+    @include display_bl;
+  }
+
+  & li {
+    @include menu;
+    padding: 3% 20px;
+  }
+}
+
+.info {
+  width: 400px;
+  height: 30px;
+  position: absolute;
+  float: right;
+  top: 0;
+  right: 0;
+  color: #fff;
+
+  .menu_info {
+    width: 100%;
+    width: 100%;
+
+    & li {
+      @include menu;
+      padding: 0 2%;
+    }
+  }
 }

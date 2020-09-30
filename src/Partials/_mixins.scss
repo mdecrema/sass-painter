@@ -1,5 +1,16 @@
-@mixin centra {
+@mixin transform {
   position: absolute;
   top: 50%;
   left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@mixin display_bl {
+  display: inline-block;
+}
+
+@mixin menu {
+  list-style: none;
+  display: inline-block;
+  color: #fff;
 }
