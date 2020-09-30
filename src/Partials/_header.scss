@@ -7,7 +7,7 @@
 }
 
 .logo {
-  width: 200px;
+  width: 150px;
   height: 50px;
   background-color: $backColorMenu;
   position: relative;
@@ -36,7 +36,7 @@
 
   & li {
     @include menu;
-    padding: 3% 20px;
+    padding: 3% 2.3%;
   }
 }
 
@@ -56,6 +56,88 @@
     & li {
       @include menu;
       padding: 0 2%;
+    }
+  }
+}
+
+/* Jumbotron */
+.jumbotron {
+  width: 100vw;
+  height: 450px;
+  background-color: green;
+  position: relative;
+
+  .jumbotron-contenuto {
+    width: 950px;
+    height: 425px;
+    position: absolute;
+    right: 5%;
+    bottom: 0;
+    background-color: red;
+
+    .limited-offer {
+      width: 400px;
+      height: 100%;
+      background-color: $backColorMenu;
+      float: left;
+    }
+
+    .descrizione {
+      width: 550px;
+      height: 100%;
+      float: left;
+
+      & h2 {
+        @include jumboTitle;
+        font-size: 30px;
+      }
+
+      & h3 {
+        @include jumboTitle;
+        font-size: 24px;
+      }
+
+      & ul {
+        @include jumboTitle;
+        list-style: none;
+        font-size: 20px;
+
+        & li {
+          padding: 1% 0;
+        }
+      }
+
+      .download {
+        width: 230px;
+        height: 60px;
+        border: 1px solid #fff;
+        margin: 3% 3%;
+
+        .download_text {
+          width: 170px;
+          height: 100%;
+          float: left;
+          padding: 5% 5%;
+
+          & a {
+            @include link_w;
+          }
+        }
+
+        .box_icon {
+          width: 55px;
+          height: 60px;
+          float: left;
+          border-left: 2px solid #fff;
+          position: relative;
+
+          .download_icon {
+            @include transform;
+            font-size: 25px;
+            //color: #fff;
+          }
+        }
+      }
     }
   }
 }

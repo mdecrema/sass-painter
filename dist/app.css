@@ -13,7 +13,7 @@
 }
 
 .logo {
-  width: 200px;
+  width: 150px;
   height: 50px;
   background-color: #000;
   position: relative;
@@ -48,7 +48,7 @@
   list-style: none;
   display: inline-block;
   color: #fff;
-  padding: 3% 20px;
+  padding: 3% 2.3%;
 }
 
 .info {
@@ -71,5 +71,94 @@
   display: inline-block;
   color: #fff;
   padding: 0 2%;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+  width: 100vw;
+  height: 450px;
+  background-color: green;
+  position: relative;
+}
+
+.jumbotron .jumbotron-contenuto {
+  width: 950px;
+  height: 425px;
+  position: absolute;
+  right: 5%;
+  bottom: 0;
+  background-color: red;
+}
+
+.jumbotron .jumbotron-contenuto .limited-offer {
+  width: 400px;
+  height: 100%;
+  background-color: #000;
+  float: left;
+}
+
+.jumbotron .jumbotron-contenuto .descrizione {
+  width: 550px;
+  height: 100%;
+  float: left;
+}
+
+.jumbotron .jumbotron-contenuto .descrizione h2 {
+  color: #fff;
+  padding: 2% 3%;
+  font-size: 30px;
+}
+
+.jumbotron .jumbotron-contenuto .descrizione h3 {
+  color: #fff;
+  padding: 2% 3%;
+  font-size: 24px;
+}
+
+.jumbotron .jumbotron-contenuto .descrizione ul {
+  color: #fff;
+  padding: 2% 3%;
+  list-style: none;
+  font-size: 20px;
+}
+
+.jumbotron .jumbotron-contenuto .descrizione ul li {
+  padding: 1% 0;
+}
+
+.jumbotron .jumbotron-contenuto .descrizione .download {
+  width: 230px;
+  height: 60px;
+  border: 1px solid #fff;
+  margin: 3% 3%;
+}
+
+.jumbotron .jumbotron-contenuto .descrizione .download .download_text {
+  width: 170px;
+  height: 100%;
+  float: left;
+  padding: 5% 5%;
+}
+
+.jumbotron .jumbotron-contenuto .descrizione .download .download_text a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.jumbotron .jumbotron-contenuto .descrizione .download .box_icon {
+  width: 55px;
+  height: 60px;
+  float: left;
+  border-left: 2px solid #fff;
+  position: relative;
+}
+
+.jumbotron .jumbotron-contenuto .descrizione .download .box_icon .download_icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
 }
 

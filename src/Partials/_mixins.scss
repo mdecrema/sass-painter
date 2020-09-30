@@ -14,3 +14,13 @@
   display: inline-block;
   color: #fff;
 }
+
+@mixin jumboTitle {
+  color: #fff;
+  padding: 2% 3%;
+}
+
+@mixin link_w {
+  text-decoration: none;
+  color: #fff;
+}
