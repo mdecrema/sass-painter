@@ -1,11 +1,20 @@
 .logo {
   width: 200px;
   height: 100px;
-  background-color: #000;
+  background-color: $backColorMenu;
+  position: relative;
+
+  .logo_painter {
+    width: 100px;
+    height: 30px;
+    @include transform;
+  }
+
 }
+
 
 .nav-bar {
   width: 100vw;
   height: 70px;
-  background-color: red;
+  background-color: $backColorMenu;
 }
