@@ -374,12 +374,7 @@ main main::after {
   padding: 7% 0;
   background-color: #222222;
 }
-.wizard_painting .section_wrapper {
-  width: 90vw;
-  height: 100%;
-  margin-left: 10vw;
-}
-.wizard_painting .section_wrapper .wizard_text {
+.wizard_painting .wizard_text {
   width: 30vw;
   height: 200px;
   margin-top: 5%;
@@ -388,22 +383,64 @@ main main::after {
   text-align: left;
   color: #fff;
 }
-.wizard_painting .section_wrapper .wizard_text h3 {
+.wizard_painting .wizard_text h3 {
   font-size: 24px;
   font-weight: 200;
   margin-bottom: 4%;
 }
-.wizard_painting .section_wrapper .wizard_text h4 {
+.wizard_painting .wizard_text h4 {
   font-weight: 200;
 }
-.wizard_painting .section_wrapper .wizard_pict {
+.wizard_painting .wizard_pict {
   width: 50vw;
   height: 500px;
   float: left;
 }
-.wizard_painting .section_wrapper .wizard_pict img {
+.wizard_painting .wizard_pict img {
   width: 100%;
   height: 100%;
+}
+
+/* Sezione schermo */
+.screen_painting {
+  width: 100vw;
+  height: 1000px;
+  text-align: center;
+  line-height: 30px;
+  padding: 7% 0;
+  background-color: #222222;
+}
+.screen_painting .screen_text {
+  width: 30vw;
+  height: 200px;
+  margin-top: 5%;
+  padding: 2%;
+  float: left;
+  text-align: left;
+  color: #fff;
+}
+.screen_painting .screen_text h3 {
+  font-size: 24px;
+  font-weight: 200;
+  margin-bottom: 4%;
+}
+.screen_painting .screen_text h4 {
+  font-weight: 200;
+}
+.screen_painting .screen_pict {
+  width: 50vw;
+  height: 500px;
+  float: left;
+}
+.screen_painting .screen_pict img {
+  width: 100%;
+  height: 100%;
+}
+
+.section_wrapper {
+  width: 90vw;
+  height: 100%;
+  margin-left: 10vw;
 }
 
 /* Footer */

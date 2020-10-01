@@ -81,40 +81,32 @@ main {
   @include contenitore;
   background-color: #222222;
 
-  .section_wrapper {
-    width: 90vw;
-    height: 100%;
-    margin-left: 10vw;
-
     .wizard_text {
-      width: 30vw;
-      height: 200px;
-      margin-top: 5%;
-      padding: 2%;
-      float: left;
-      text-align: left;
-      color: #fff;
-
-      h3 {
-        font-size: 24px;
-        font-weight: 200;
-        margin-bottom: 4%;
-      }
-
-      h4 {
-        font-weight: 200;
-      }
+      @include box_text_mini;
     }
 
     .wizard_pict {
-      width: 50vw;
-      height: 500px;
-      float: left;
-
-      & img {
-        width: 100%;
-        height: 100%;
-      }
+      @include box_pict_mini;
     }
   }
+
+
+/* Sezione schermo */
+.screen_painting {
+  @include contenitore;
+  background-color: #222222;
+
+  .screen_text {
+    @include box_text_mini;
+  }
+
+  .screen_pict {
+    @include box_pict_mini;
+  }
+}
+
+.section_wrapper {
+  width: 90vw;
+  height: 100%;
+  margin-left: 10vw;
 }
