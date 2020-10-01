@@ -8,6 +8,10 @@ body {
   position: relative;
 }
 
+.f_size_20 {
+  font-size: 20px;
+}
+
 .header_wrapper {
   width: 100vw;
   height: 100px;
@@ -82,7 +86,9 @@ body {
 .jumbotron {
   width: 100vw;
   height: 450px;
-  background-color: green;
+  background-image: url(/images/hero.jpeg?72accae49957acd082ee0d808748ccab);
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
 }
 
@@ -102,6 +108,61 @@ body {
   height: 100%;
   background-color: #000;
   float: left;
+  padding: 4% 2%;
+  position: relative;
+}
+
+.jumbotron .jumbotron-contenuto .limited-offer .guarantee {
+  width: 120px;
+  height: 120px;
+  background-color: red;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.jumbotron .jumbotron-contenuto .limited-offer .guarantee img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.jumbotron .jumbotron-contenuto .limited-offer h3 {
+  font-size: 26px;
+  color: #fff;
+  padding: 2% 3%;
+}
+
+.jumbotron .jumbotron-contenuto .limited-offer h4 {
+  font-size: 14px;
+  color: #fff;
+  padding: 2% 3%;
+  margin-bottom: 5%;
+}
+
+.jumbotron .jumbotron-contenuto .limited-offer .buy_now {
+  margin-left: 2%;
+  background-color: #009CFF;
+  color: #fff;
+  text-decoration: none;
+  padding: 2% 10%;
+}
+
+.jumbotron .jumbotron-contenuto .limited-offer .box-white {
+  margin-left: 2%;
+  margin-top: 10%;
+  width: 95%;
+  height: 100px;
+  padding: 3% 4%;
+  font-size: 14px;
+  line-height: 22px;
+  background-color: #fff;
+}
+
+.jumbotron .jumbotron-contenuto .limited-offer .box-white a {
+  text-decoration: none;
+  color: #009CFF;
 }
 
 .jumbotron .jumbotron-contenuto .descrizione {
@@ -185,6 +246,65 @@ main ::after {
   display: flex;
   clear: both;
 }
+
+footer {
+  width: 100vw;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #1E1E1E;
+}
+
+footer .footer-content {
+  width: 90vw;
+  height: 100%;
+  margin-left: 5vw;
+}
+
+footer .footer-content .certificate {
+  width: 120px;
+  height: 100%;
+  position: relative;
+  display: inline-block;
+}
+
+footer .footer-content .certificate img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+footer .footer-content .certificate #mcafee {
+  width: 100px;
+  height: 50px;
+}
+
+footer .footer-content .link-utili {
+  display: inline-block;
+  float: right;
+}
+
+footer .footer-content .link-utili ul {
+  width: 50vw;
+  height: 100%;
+}
+
+footer .footer-content .link-utili ul li {
+  line-height: 100px;
+  padding: 0 2%;
+  list-style: none;
+  display: inline-block;
+  color: #fff;
+}
+
+footer .footer-content .link-utili ul a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Footer */
 
 footer {
   width: 100vw;
