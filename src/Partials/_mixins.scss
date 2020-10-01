@@ -40,27 +40,29 @@
 }
 
 @mixin box_text {
-  width: 1000px;
+  width: 940px;
   height: 250px;
   margin: auto;
 
   & h2 {
     font-size: 40px;
-    margin-bottom: 2%;
+    margin-bottom: 3%;
+    font-weight: 300;
   }
 
   & h3 {
-    font-size: 20px;
-    margin-bottom: 3%;
+    font-size: 18px;
+    margin-bottom: 4%;
+    font-weight: 200;
   }
 }
 
 @mixin box_pict {
-  width: 1000px;
+  width: 950px;
   height: 650px;
   position: absolute;
   bottom: 0;
-  left: 13%;
+  left: 15%;
 
   & img {
     width: 100%;

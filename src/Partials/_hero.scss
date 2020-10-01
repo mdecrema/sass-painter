@@ -39,11 +39,13 @@
 
       h3 {
         font-size: 26px;
+        font-weight: 200;
         @include jumboTitle;
       }
 
       h4 {
         font-size: 14px;
+        font-weight: 200;
         @include jumboTitle;
         margin-bottom: 5%;
       }
@@ -82,17 +84,20 @@
 
       & h2 {
         @include jumboTitle;
+        font-weight: 200;
         font-size: 30px;
       }
 
       & h3 {
         @include jumboTitle;
+        font-weight: 200;
         font-size: 24px;
       }
 
       & ul {
         @include jumboTitle;
         list-style: none;
+        font-weight: 200;
         font-size: 20px;
 
         & li {
