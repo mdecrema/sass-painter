@@ -39,6 +39,22 @@
   padding: 7% 0;
 }
 
+@mixin contenitore_medium {
+  width: 100vw;
+  height: 800px;
+  text-align: center;
+  line-height: 30px;
+  padding: 7% 0;
+}
+
+@mixin contenitore_mini {
+  width: 100vw;
+  height: 650px;
+  text-align: center;
+  line-height: 30px;
+  padding: 7% 0;
+}
+
 @mixin box_text {
   width: 940px;
   height: 250px;

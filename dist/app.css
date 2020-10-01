@@ -326,10 +326,20 @@ main main::after {
   height: 100%;
 }
 
+/* Sezione vuota */
+.empty_spot {
+  width: 100vw;
+  height: 650px;
+  text-align: center;
+  line-height: 30px;
+  padding: 7% 0;
+  background-color: transparent;
+}
+
 /* Sezione strada */
 .street_painting {
   width: 100vw;
-  height: 1000px;
+  height: 800px;
   text-align: center;
   line-height: 30px;
   padding: 7% 0;
@@ -354,7 +364,7 @@ main main::after {
 }
 .street_painting .street_pict {
   width: 950px;
-  height: 650px;
+  height: 500px;
   position: absolute;
   bottom: 0;
   left: 15%;
@@ -362,13 +372,13 @@ main main::after {
 }
 .street_painting .street_pict img {
   width: 80%;
-  height: 80%;
+  height: 90%;
 }
 
 /* Sezione mago */
 .wizard_painting {
   width: 100vw;
-  height: 1000px;
+  height: 650px;
   text-align: center;
   line-height: 30px;
   padding: 7% 0;
@@ -404,7 +414,7 @@ main main::after {
 /* Sezione schermo */
 .screen_painting {
   width: 100vw;
-  height: 1000px;
+  height: 800px;
   text-align: center;
   line-height: 30px;
   padding: 7% 0;
