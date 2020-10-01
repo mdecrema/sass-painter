@@ -3,11 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>Painter Artist</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="dist/app.css" />
   </head>
   <body>
     <header>
+      <!-- Menu principale -->
       <div class="header_wrapper">
         <nav class="nav-bar">
           <div class="logo">
@@ -26,14 +28,16 @@
         </nav>
         <div class="info">
           <ul class="menu_info">
-            <li>1-877-582-6735</li>
-            <li>Chat</li>
-            <li>Sign in</li>
-            <li>Cart</li>
+            <li id="phone"><i class="fas fa-phone-alt mini_icon_menu"></i>1-877-582-6735</li>
+            <li><i class="fas fa-comment-alt mini_icon_menu"></i>Chat</li>
+            <li id="profile"><i class="fas fa-user mini_icon_menu"></i>Sign in</li>
+            <li><i class="fas fa-shopping-cart mini_icon_menu"></i>Cart</li>
           </ul>
         </div>
       </div>
-      <!-- Jumbotron -->
+      <!-- /Menu principale -->
+
+      <!-- Hero -->
       <div class="jumbotron">
         <!--<img id="" src="img/hero.jpeg" />-->
         <div class="jumbotron-contenuto">
@@ -72,8 +76,39 @@
         </div>
       </div>
     </header>
-    <main>
+    <!-- /Hero -->
+    <div class="secondary_menu">
 
+    </div>
+    <!-- Contenuto principale -->
+    <main>
+      <section class="woman_painting">
+        <div class="woman_text">
+          <h2>The ideal painting software for beginners</h2>
+          <h3>Start your creative journey with Painter® Essentials™ 7,
+            the best paint program for beginners to explore and expand
+            artistic curiosity using impressive, easy-to-learn tools.</h3>
+          <a href="">Quick Start Guide PDF</a>
+        </div>
+        <div class="woman_pict">
+          <img id="" src="img/intro-screen.png" alt="" />
+        </div>
+      </section>
+
+      <section class="owl_painting">
+        <div class="owl_text">
+          <h2>Distinctive Artificial Intelligence based photo painting</h2>
+          <h3>Produce incredible photo art with ease by converting your favorite
+            photos into paintings using neural networking and the strength
+            of Painter’s brush engine! Choose from an impressive range
+            of AI styles for photo painting, including Bold Watercolor,
+            Colored Pencil, Colorful Dabs, Impressionist, Smooth Acrylic, Van Gogh,
+            Watercolor Portrait, and Charcoal Drawing.</h3>
+        </div>
+          <div class="owl_pict">
+            <img id="" src="img/after-04.jpg" alt="" />
+          </div>
+      </section>
     </main>
     <footer>
       <div class="footer-content">

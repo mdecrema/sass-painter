@@ -1,0 +1,50 @@
+body {
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+/* Main */
+main {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: yellow;
+  &::after {
+    @include clearfix;
+  }
+}
+
+.woman_painting {
+  @include contenitore;
+  background-color: #101010;
+  color: #fff;
+  position: relative;
+
+  .woman_text {
+    @include box_text;
+
+    & a {
+      text-decoration: none;
+      font-size: 22px;
+      color: #fff;
+    }
+  }
+
+  .woman_pict {
+    @include box_pict;
+  }
+}
+
+/* Sezione gufo */
+.owl_painting {
+  @include contenitore;
+  background-color: #fff;
+
+  .owl_text {
+    @include box_text;
+  }
+
+  .owl_pict {
+    @include box_pict
+  }
+}

@@ -4,8 +4,9 @@
   padding: 0;
 }
 
-body {
-  position: relative;
+.mini_icon_menu {
+  margin-right: 15px;
+  color: #009CFF;
 }
 
 .f_size_20 {
@@ -15,7 +16,7 @@ body {
 .header_wrapper {
   width: 100vw;
   height: 100px;
-  background-color: #000;
+  background-color: #101010;
   position: relative;
   overflow: hidden;
 }
@@ -23,12 +24,11 @@ body {
 .logo {
   width: 150px;
   height: 50px;
-  background-color: #000;
+  background-color: #101010;
   position: relative;
   vertical-align: middle;
   display: inline-block;
 }
-
 .logo img {
   width: 90px;
   height: 20px;
@@ -45,13 +45,11 @@ body {
   position: absolute;
   bottom: 0;
 }
-
 .nav-bar ul {
   width: 80%;
   height: 30px;
   display: inline-block;
 }
-
 .nav-bar li {
   list-style: none;
   display: inline-block;
@@ -60,7 +58,7 @@ body {
 }
 
 .info {
-  width: 400px;
+  width: 500px;
   height: 30px;
   position: absolute;
   float: right;
@@ -68,41 +66,44 @@ body {
   right: 0;
   color: #fff;
 }
-
 .info .menu_info {
   width: 100%;
   width: 100%;
 }
-
 .info .menu_info li {
+  width: 80px;
+  padding: 3% 2%;
+  font-size: 14px;
   list-style: none;
   display: inline-block;
   color: #fff;
-  padding: 0 2%;
+}
+.info .menu_info #phone {
+  width: 150px;
+}
+.info .menu_info #profile {
+  width: 90px;
 }
 
 /* Jumbotron */
-
 .jumbotron {
   width: 100vw;
   height: 450px;
-  background-image: url(/images/hero.jpeg?72accae49957acd082ee0d808748ccab);
+  background-image: url("../img/hero.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: 50%;
   position: relative;
 }
-
 .jumbotron .jumbotron-contenuto {
   width: 950px;
   height: 425px;
   position: absolute;
   right: 5%;
   bottom: 0;
-  background-color: red;
   /* Box limited offer */
   /* Descrizione e download link */
 }
-
 .jumbotron .jumbotron-contenuto .limited-offer {
   width: 400px;
   height: 100%;
@@ -111,36 +112,30 @@ body {
   padding: 4% 2%;
   position: relative;
 }
-
 .jumbotron .jumbotron-contenuto .limited-offer .guarantee {
   width: 120px;
   height: 120px;
-  background-color: red;
   position: absolute;
   top: 0;
   right: 0;
 }
-
 .jumbotron .jumbotron-contenuto .limited-offer .guarantee img {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
 .jumbotron .jumbotron-contenuto .limited-offer h3 {
   font-size: 26px;
   color: #fff;
   padding: 2% 3%;
 }
-
 .jumbotron .jumbotron-contenuto .limited-offer h4 {
   font-size: 14px;
   color: #fff;
   padding: 2% 3%;
   margin-bottom: 5%;
 }
-
 .jumbotron .jumbotron-contenuto .limited-offer .buy_now {
   margin-left: 2%;
   background-color: #009CFF;
@@ -148,76 +143,64 @@ body {
   text-decoration: none;
   padding: 2% 10%;
 }
-
 .jumbotron .jumbotron-contenuto .limited-offer .box-white {
   margin-left: 2%;
   margin-top: 10%;
   width: 95%;
   height: 100px;
-  padding: 3% 4%;
-  font-size: 14px;
+  padding: 3% 1% 3% 3%;
+  font-size: 13px;
   line-height: 22px;
   background-color: #fff;
 }
-
 .jumbotron .jumbotron-contenuto .limited-offer .box-white a {
   text-decoration: none;
   color: #009CFF;
 }
-
 .jumbotron .jumbotron-contenuto .descrizione {
   width: 550px;
   height: 100%;
   float: left;
 }
-
 .jumbotron .jumbotron-contenuto .descrizione h2 {
   color: #fff;
   padding: 2% 3%;
   font-size: 30px;
 }
-
 .jumbotron .jumbotron-contenuto .descrizione h3 {
   color: #fff;
   padding: 2% 3%;
   font-size: 24px;
 }
-
 .jumbotron .jumbotron-contenuto .descrizione ul {
   color: #fff;
   padding: 2% 3%;
   list-style: none;
   font-size: 20px;
 }
-
 .jumbotron .jumbotron-contenuto .descrizione ul li {
   padding: 1% 0;
 }
-
 .jumbotron .jumbotron-contenuto .descrizione ul .arrow_icon {
   font-size: 14px;
   margin-right: 2%;
 }
-
 .jumbotron .jumbotron-contenuto .descrizione .download {
   width: 230px;
   height: 60px;
   margin: 3% 3%;
-  background-color: grey;
+  background-color: #5C5C5A;
 }
-
 .jumbotron .jumbotron-contenuto .descrizione .download .download_text {
   width: 170px;
   height: 100%;
   float: left;
   padding: 5% 5%;
 }
-
 .jumbotron .jumbotron-contenuto .descrizione .download .download_text a {
   text-decoration: none;
   color: #fff;
 }
-
 .jumbotron .jumbotron-contenuto .descrizione .download .box_icon {
   width: 55px;
   height: 60px;
@@ -225,7 +208,6 @@ body {
   border-left: 2px solid #fff;
   position: relative;
 }
-
 .jumbotron .jumbotron-contenuto .descrizione .download .box_icon .download_icon {
   position: absolute;
   top: 50%;
@@ -235,77 +217,105 @@ body {
   color: #fff;
 }
 
+.secondary_menu {
+  width: 100vw;
+  height: 50px;
+  background-color: #fff;
+}
+
+body {
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+/* Main */
 main {
   width: 100vw;
   min-height: 100vh;
   background-color: yellow;
 }
-
-main ::after {
+main::after {
   content: "";
   display: flex;
   clear: both;
 }
 
-footer {
+.woman_painting {
   width: 100vw;
-  height: 100px;
+  height: 1000px;
+  text-align: center;
+  line-height: 30px;
+  padding: 7% 0;
+  background-color: #101010;
+  color: #fff;
+  position: relative;
+}
+.woman_painting .woman_text {
+  width: 1000px;
+  height: 250px;
+  margin: auto;
+}
+.woman_painting .woman_text h2 {
+  font-size: 40px;
+  margin-bottom: 2%;
+}
+.woman_painting .woman_text h3 {
+  font-size: 20px;
+  margin-bottom: 3%;
+}
+.woman_painting .woman_text a {
+  text-decoration: none;
+  font-size: 22px;
+  color: #fff;
+}
+.woman_painting .woman_pict {
+  width: 1000px;
+  height: 650px;
   position: absolute;
   bottom: 0;
-  left: 0;
-  background-color: #1E1E1E;
+  left: 13%;
 }
-
-footer .footer-content {
-  width: 90vw;
+.woman_painting .woman_pict img {
+  width: 100%;
   height: 100%;
-  margin-left: 5vw;
 }
 
-footer .footer-content .certificate {
-  width: 120px;
-  height: 100%;
-  position: relative;
-  display: inline-block;
+/* Sezione gufo */
+.owl_painting {
+  width: 100vw;
+  height: 1000px;
+  text-align: center;
+  line-height: 30px;
+  padding: 7% 0;
+  background-color: #fff;
 }
-
-footer .footer-content .certificate img {
+.owl_painting .owl_text {
+  width: 1000px;
+  height: 250px;
+  margin: auto;
+}
+.owl_painting .owl_text h2 {
+  font-size: 40px;
+  margin-bottom: 2%;
+}
+.owl_painting .owl_text h3 {
+  font-size: 20px;
+  margin-bottom: 3%;
+}
+.owl_painting .owl_pict {
+  width: 1000px;
+  height: 650px;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  bottom: 0;
+  left: 13%;
 }
-
-footer .footer-content .certificate #mcafee {
-  width: 100px;
-  height: 50px;
-}
-
-footer .footer-content .link-utili {
-  display: inline-block;
-  float: right;
-}
-
-footer .footer-content .link-utili ul {
-  width: 50vw;
+.owl_painting .owl_pict img {
+  width: 100%;
   height: 100%;
-}
-
-footer .footer-content .link-utili ul li {
-  line-height: 100px;
-  padding: 0 2%;
-  list-style: none;
-  display: inline-block;
-  color: #fff;
-}
-
-footer .footer-content .link-utili ul a {
-  text-decoration: none;
-  color: #fff;
 }
 
 /* Footer */
-
 footer {
   width: 100vw;
   height: 100px;
@@ -314,42 +324,35 @@ footer {
   left: 0;
   background-color: #1E1E1E;
 }
-
 footer .footer-content {
   width: 90vw;
   height: 100%;
   margin-left: 5vw;
 }
-
 footer .footer-content .certificate {
   width: 120px;
   height: 100%;
   position: relative;
   display: inline-block;
 }
-
 footer .footer-content .certificate img {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
 footer .footer-content .certificate #mcafee {
   width: 100px;
   height: 50px;
 }
-
 footer .footer-content .link-utili {
   display: inline-block;
   float: right;
 }
-
 footer .footer-content .link-utili ul {
   width: 50vw;
   height: 100%;
 }
-
 footer .footer-content .link-utili ul li {
   line-height: 100px;
   padding: 0 2%;
@@ -357,9 +360,7 @@ footer .footer-content .link-utili ul li {
   display: inline-block;
   color: #fff;
 }
-
 footer .footer-content .link-utili ul a {
   text-decoration: none;
   color: #fff;
 }
-
