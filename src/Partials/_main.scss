@@ -54,6 +54,7 @@ main {
 .street_painting {
   @include contenitore;
   background-color: #222222;
+  position: relative;
 
   .street_text {
     color: #fff;
@@ -71,6 +72,49 @@ main {
     & img {
       width: 80%;
       height: 80%;
+    }
+  }
+}
+
+/* Sezione mago */
+.wizard_painting {
+  @include contenitore;
+  background-color: #222222;
+
+  .section_wrapper {
+    width: 90vw;
+    height: 100%;
+    margin-left: 10vw;
+
+    .wizard_text {
+      width: 30vw;
+      height: 200px;
+      margin-top: 5%;
+      padding: 2%;
+      float: left;
+      text-align: left;
+      color: #fff;
+
+      h3 {
+        font-size: 24px;
+        font-weight: 200;
+        margin-bottom: 4%;
+      }
+
+      h4 {
+        font-weight: 200;
+      }
+    }
+
+    .wizard_pict {
+      width: 50vw;
+      height: 500px;
+      float: left;
+
+      & img {
+        width: 100%;
+        height: 100%;
+      }
     }
   }
 }
