@@ -82,7 +82,7 @@
   width: 150px;
 }
 .info .menu_info #profile {
-  width: 90px;
+  width: 95px;
 }
 
 /* Jumbotron */
@@ -457,7 +457,7 @@ main main::after {
 /* Sezione effetti e strumenti */
 .effects {
   width: 100vw;
-  height: 95vh;
+  height: 80vh;
   text-align: center;
   line-height: 30px;
   padding: 7% 0;
@@ -509,6 +509,54 @@ main main::after {
   font-size: 20px;
   color: #fff;
   font-weight: 200;
+}
+
+/* Note finali */
+.notes {
+  width: 100vw;
+  height: 90vh;
+  background-color: #8D89A0;
+  position: relative;
+}
+.notes .notes_wrapper {
+  width: 1000px;
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.notes .notes_wrapper .notes_text {
+  width: 450px;
+  height: 300px;
+  background-color: #fff;
+  float: left;
+  position: relative;
+}
+.notes .notes_wrapper .notes_text .text_wrapper {
+  width: 350px;
+  height: 150px;
+  text-align: center;
+  color: #333333;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.notes .notes_wrapper .notes_text .text_wrapper h3 {
+  margin-bottom: 4%;
+  font-size: 24px;
+  font-weight: 200;
+}
+.notes .notes_wrapper .notes_text .text_wrapper p {
+  line-height: 30px;
+  font-weight: 200;
+}
+.notes .notes_wrapper .notes_text .text_wrapper p a {
+  text-decoration: none;
+  color: #009CFF;
 }
 
 /* Footer */
