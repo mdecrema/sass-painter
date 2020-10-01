@@ -186,13 +186,13 @@ main {
 /* Note finali */
 .notes {
   width: 100vw;
-  height: 90vh;
+  height: 550px;
   background-color: #8D89A0;
   position: relative;
 
   .notes_wrapper {
     width: 1000px;
-    height: 400px;
+    height: 300px;
     display: flex;
     justify-content: space-around;
     @include transform;

@@ -514,13 +514,13 @@ main main::after {
 /* Note finali */
 .notes {
   width: 100vw;
-  height: 90vh;
+  height: 550px;
   background-color: #8D89A0;
   position: relative;
 }
 .notes .notes_wrapper {
   width: 1000px;
-  height: 400px;
+  height: 300px;
   display: flex;
   justify-content: space-around;
   position: absolute;
@@ -562,15 +562,19 @@ main main::after {
 /* Footer */
 footer {
   width: 100vw;
-  height: 100px;
-  position: absolute;
+  height: 400px;
   bottom: 0;
   left: 0;
   background-color: #1E1E1E;
 }
+footer .box_tags {
+  width: 100vw;
+  height: 300px;
+  background-color: #fff;
+}
 footer .footer-content {
   width: 90vw;
-  height: 100%;
+  height: 100px;
   margin-left: 5vw;
 }
 footer .footer-content .certificate {
