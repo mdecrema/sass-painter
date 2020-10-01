@@ -9,7 +9,7 @@ main {
   width: 100vw;
   min-height: 100vh;
   background-color: yellow;
-  &::after {
+  & main::after {
     @include clearfix;
   }
 }
@@ -39,6 +39,7 @@ main {
 .owl_painting {
   @include contenitore;
   background-color: #fff;
+  position: relative;
 
   .owl_text {
     @include box_text;
@@ -46,5 +47,30 @@ main {
 
   .owl_pict {
     @include box_pict
+  }
+}
+
+/* Sezione strada */
+.street_painting {
+  @include contenitore;
+  background-color: #222222;
+
+  .street_text {
+    color: #fff;
+    @include box_text;
+  }
+
+  .street_pict {
+    width: 950px;
+    height: 650px;
+    position: absolute;
+    bottom: 0;
+    left: 15%;
+    background-color: #222222;
+
+    & img {
+      width: 80%;
+      height: 80%;
+    }
   }
 }

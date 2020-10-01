@@ -152,6 +152,7 @@
   height: 100px;
   padding: 3% 1% 3% 3%;
   font-size: 13px;
+  color: #2C2C2C;
   line-height: 22px;
   background-color: #fff;
 }
@@ -240,7 +241,7 @@ main {
   min-height: 100vh;
   background-color: yellow;
 }
-main::after {
+main main::after {
   content: "";
   display: flex;
   clear: both;
@@ -296,6 +297,7 @@ main::after {
   line-height: 30px;
   padding: 7% 0;
   background-color: #fff;
+  position: relative;
 }
 .owl_painting .owl_text {
   width: 940px;
@@ -322,6 +324,44 @@ main::after {
 .owl_painting .owl_pict img {
   width: 100%;
   height: 100%;
+}
+
+/* Sezione strada */
+.street_painting {
+  width: 100vw;
+  height: 1000px;
+  text-align: center;
+  line-height: 30px;
+  padding: 7% 0;
+  background-color: #222222;
+}
+.street_painting .street_text {
+  color: #fff;
+  width: 940px;
+  height: 250px;
+  margin: auto;
+}
+.street_painting .street_text h2 {
+  font-size: 40px;
+  margin-bottom: 3%;
+  font-weight: 300;
+}
+.street_painting .street_text h3 {
+  font-size: 18px;
+  margin-bottom: 4%;
+  font-weight: 200;
+}
+.street_painting .street_pict {
+  width: 950px;
+  height: 650px;
+  position: absolute;
+  bottom: 0;
+  left: 15%;
+  background-color: #222222;
+}
+.street_painting .street_pict img {
+  width: 80%;
+  height: 80%;
 }
 
 /* Footer */
@@ -359,10 +399,11 @@ footer .footer-content .link-utili {
   float: right;
 }
 footer .footer-content .link-utili ul {
-  width: 50vw;
+  width: 45vw;
   height: 100%;
 }
 footer .footer-content .link-utili ul li {
+  font-size: 12px;
   line-height: 100px;
   padding: 0 2%;
   list-style: none;

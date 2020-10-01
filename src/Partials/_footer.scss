@@ -33,10 +33,11 @@ footer {
       float: right;
 
       & ul {
-        width: 50vw;
+        width: 45vw;
         height: 100%;
 
         & li {
+          font-size: 12px;
           line-height: 100px;
           padding: 0 2%;
           @include menu;
