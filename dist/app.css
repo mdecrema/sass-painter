@@ -447,10 +447,68 @@ main main::after {
   height: 100%;
 }
 
+/* Wrapper utiizzato per alcune sezioni */
 .section_wrapper {
   width: 90vw;
   height: 100%;
   margin-left: 10vw;
+}
+
+/* Sezione effetti e strumenti */
+.effects {
+  width: 100vw;
+  height: 95vh;
+  text-align: center;
+  line-height: 30px;
+  padding: 7% 0;
+  background-color: #fff;
+}
+.effects_text {
+  width: 940px;
+  height: 100px;
+  margin: auto;
+}
+.effects_text h2 {
+  font-size: 40px;
+  margin-bottom: 3%;
+  font-weight: 300;
+  color: #333333;
+}
+.effects .box_effects_pict {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+}
+.effects .box_effects_pict .effects_pict {
+  width: 230px;
+  height: 230px;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+}
+.effects .box_effects_pict .effects_pict:hover img {
+  margin-left: -10px;
+  margin-top: -10px;
+  width: 110%;
+  height: 110%;
+}
+.effects .box_effects_pict .effects_pict img {
+  width: 100%;
+  height: 100%;
+  transition: 0.8s;
+}
+.effects .box_effects_pict .effects_pict .text_on_pict {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 230px;
+  height: 50px;
+}
+.effects .box_effects_pict .effects_pict .text_on_pict h4 {
+  line-height: 40px;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 200;
 }
 
 /* Footer */
